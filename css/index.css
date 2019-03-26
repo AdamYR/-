@@ -1,0 +1,863 @@
+/*初始化代码*/
+
+body, div, span, ul, ol, li, a, img, input, em, i, strong, h1, h2, h3, h4, p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+a:hover {}
+
+img {
+	border: 0 none;
+	vertical-align: middle;
+}
+
+input {
+	border: 0 none;
+	outline: 0 none;
+}
+
+li {
+	list-style: none;
+}
+
+i, em {
+	font-style: normal;
+}
+
+h1, h2, h3, h4, strong {
+	font-weight: normal;
+}
+
+body {
+	width: 1920px;
+	font: 12px/100% "微软雅黑";
+}
+
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+/* 标语 */
+
+.banner a {
+	width: 1920px;
+	height: 435px;
+	background: url(../素材/banner.jpg);
+}
+
+.core {
+	width: 1200px;
+	height: 333px;
+	padding-top: 80px;
+	margin: 0 auto;
+}
+
+.core_top a {
+	height: 78px;
+	background: url(../素材/标题.png)
+}
+
+.core_bottom {
+	height: 255px;
+}
+
+.core_bottom li {
+	height: 255px;
+	width: 240px;
+	background-color: red;
+	float: left;
+}
+
+/* 鼠标移入显示阴影 */
+
+.core_bottom li:hover {
+	box-shadow: 6px 6px 4px 0px #dbdbdb;
+}
+
+.core_bottom li:nth-child(1) a {
+	background: url(../素材/线上全名师阵容.png)
+}
+
+.core_bottom li:nth-child(2) a {
+	background: url(../素材/线上全名师阵容.png)
+}
+
+.core_bottom li:nth-child(3) a {
+	background: url(../素材/形状4.png)
+}
+
+.core_bottom li:nth-child(4) a {
+	background: url(../素材/AI.png)
+}
+
+.core_bottom li:nth-child(5) a {
+	background: url(../素材/线下无忧服务体系.png)
+}
+
+/* No.1 */
+
+.famous_teacher {
+	height: 134px;
+	padding-top: 80px;
+}
+
+.famous_teacher .famous_line {
+	width: 310px;
+	height: 2px;
+	background-color: #453b37;
+	margin: 0 auto;
+}
+
+.famous_teacher .noOne {
+	height: 52px;
+	width: 310px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.famous_teacher .noOne span {
+	color: #000;
+	font-size: 32px;
+	line-height: 52px;
+}
+
+.famous_teacher .whole {
+	display: block;
+	width: 310px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 18px;
+	color: #666;
+}
+
+.brief_teacher {
+	height: 1010px;
+	width: 1120px;
+	padding: 0px 40px 110px;
+}
+
+.brief_teacher li {
+	width: 346px;
+	height: 480px;
+	float: left;
+	border: 2px solid #e5e5e5;
+}
+
+.brief_teacher li:nth-child(1), .brief_teacher li:nth-child(2), .brief_teacher li:nth-child(4), .brief_teacher li:nth-child(5) {
+	margin-right: 35px;
+}
+
+.brief_teacher li:nth-child(1), .brief_teacher li:nth-child(2), .brief_teacher li:nth-child(3) {
+	margin-bottom: 50px;
+}
+
+.brief_teacher li .picture1 {
+	margin: 0 auto;
+	width: 200px;
+	height: 220px;
+	background: url(../素材/教师图片/2cba9876cbdb7aa7fed83f76b48ef54.jpg) no-repeat 0 -18px;
+	background-size: 100% 124%;
+}
+
+.brief_teacher li .picture2 {
+	margin: 0 auto;
+	width: 200px;
+	height: 220px;
+	background: url(../素材/教师图片/5a0727437db3ee0e4c4e92a862c8747.jpg) no-repeat 0 -18px;
+	background-size: 100% 124%;
+}
+
+.brief_teacher li .picture3 {
+	margin: 0 auto;
+	width: 200px;
+	height: 220px;
+	background: url(../素材/教师图片/5ab50e98fbe6f49e35373fa13dd2cb5.jpg) no-repeat 0 -18px;
+	background-size: 100% 124%;
+}
+
+.brief_teacher li .picture4 {
+	margin: 0 auto;
+	width: 200px;
+	height: 220px;
+	background: url(../素材/教师图片/1897615726a212c49b25abd2d4a0e22.jpg) no-repeat 0 -18px;
+	background-size: 100% 124%;
+}
+
+.brief_teacher li .picture5 {
+	margin: 0 auto;
+	width: 230px;
+	height: 220px;
+	background: url(../素材/教师图片/da377fd22773b749fdd2426514bfcc4.jpg) no-repeat 0 -32px;
+	background-size: 110% 124%;
+}
+
+.brief_teacher li .picture6 {
+	margin: 0 auto;
+	width: 200px;
+	height: 220px;
+	background: url(../素材/教师图片/cbc9882cf52fec850f2b7fe8867cb17.jpg) no-repeat 0 -18px;
+	background-size: 100% 124%;
+}
+
+.brief_teacher li .position {
+	width: 324px;
+	height: 38px;
+	padding-left: 24px;
+	background-color: #d1d1d1;
+	display: flex;
+	flex-direction: row;
+	/* justify-cotent: space-between; */
+}
+
+.brief_teacher li .position span:nth-child(1) {
+	color: #000;
+	font-family: "黑体";
+	font-size: 28px;
+	line-height: 38px;
+}
+
+.brief_teacher li .position span:nth-child(2) {
+	color: #000;
+	font-family: "黑体";
+	font-size: 20px;
+	line-height: 38px;
+	align-self: center;
+}
+
+.brief_teacher li .introduce {
+	height: 143px;
+	padding-top: 16px;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+.brief_teacher li .introduce span {
+	color: #666;
+	font-family: "黑体";
+	font-size: 20px;
+	line-height: 34px;
+}
+
+.brief_teacher li .line {
+	margin-bottom: 0px;
+	width: 294px;
+	height: 1px;
+	background-color: #a4a4a4;
+	margin: auto;
+}
+
+.brief_teacher li .audition {
+	height: 48px;
+	padding-top: 14px;
+}
+
+.brief_teacher li .audition .audition_btn {
+	width: 116px;
+	height: 34px;
+	background: url(../素材/no.1/课程试听.png);
+	margin: auto;
+}
+
+.brief_teacher li:hover {
+	box-shadow: 0px 0px 10px 4px #dbdbdb;
+}
+
+/* No.2 */
+
+.course {
+	/* width: 100%; */
+	height: 824px;
+	padding-top: 30px;
+	background-color: #d9d9d9;
+}
+
+.course_content {
+	height: 100%;
+}
+
+.course_content .course_title {
+	height: 130px;
+	width: 310px;
+	margin: 0 auto;
+}
+
+.course_content .course_title .course_line {
+	width: 310px;
+	height: 2px;
+	background-color: #453b37;
+	margin: 0 auto;
+}
+
+.course_content .course_title .noOne {
+	height: 52px;
+	width: 310px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.course_content .course_title .noOne span {
+	color: #000;
+	font-size: 32px;
+	line-height: 52px;
+}
+
+.course_content .course_title .course_point1 {
+	width: 96px;
+	height: 26px;
+	background: url(../素材/no.2/分阶清晰.png);
+	float: left;
+	margin-top: 17px;
+}
+
+.course_content .course_title .course_point2 {
+	width: 96px;
+	height: 26px;
+	background: url(../素材/no.2/讲练评测.png);
+	float: right;
+	margin-top: 17px;
+}
+
+.course_content .course_module {
+	height: 324px;
+	width: 1200px;
+	position: relative;
+}
+
+.course_content .course_module .fill1 {
+	width: 40px;
+	height: 40px;
+	background-color: #828282;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+.course_content .course_module .fill2 {
+	width: 40px;
+	height: 40px;
+	background-color: #828282;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.course_content .course_module .course_system {
+	width: 1120px;
+	height: 324px;
+	background-color: #fff;
+	position: absolute;
+	bottom: 0px;
+	left: 40px;
+}
+
+.course_content .course_module .course_system .course_top {
+	width: 100%;
+	height: 40px;
+	background-color: #3c886a;
+}
+
+.course_content .course_module .course_system .course_divide {
+	padding-top: 20px;
+	padding-bottom: 54px;
+}
+
+.course_content .course_module .course_system .course_divide li {
+	height: 210px;
+	width: 278px;
+	/* background-color: red; */
+	float: left;
+	text-align: center;
+}
+
+.course_content .course_module .course_system .course_divide li .course_btnB {
+	width: 45px;
+	height: 45px;
+	background: URL(../素材/no.2/形状527.png);
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.course_content .course_module .course_system .course_divide li .course_btnR {
+	width: 45px;
+	height: 45px;
+	background: URL(../素材/no.2/形状527拷贝.png);
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.course_content .course_module .course_system .course_divide li:nth-child(4) .course_btnR {
+	margin-top: 28px;
+}
+
+.course_content .course_module .course_system .course_divide li:nth-child(1), .course_content .course_module .course_system .course_divide li:nth-child(2), .course_content .course_module .course_system .course_divide li:nth-child(3) {
+	border-right: 2px dashed #ccc;
+}
+
+.course_content .course_module .course_system .course_divide li span {
+	display: block;
+}
+
+.course_content .course_module .course_system .course_divide li span:nth-child(1) {
+	color: #2c2b40;
+	font-size: 40px;
+	font-family: "黑体";
+	line-height: 46px;
+}
+
+.course_content .course_module .course_system .course_divide li span:nth-child(2) {
+	color: #3d3c59;
+	font-size: 24px;
+	font-family: "黑体";
+	line-height: 62px;
+}
+
+.course_content .course_module .course_system .course_divide li span:nth-child(3) {
+	color: #808080;
+	font-size: 28px;
+	font-family: "黑体";
+	line-height: 46px;
+}
+
+.course_content .course_module .course_system .course_divide li span:nth-child(4) {
+	color: #808080;
+	font-size: 28px;
+	font-family: "黑体";
+}
+
+.course_content .course_substance {
+	width: 1120px;
+	height: 236px;
+	padding-top: 24px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: #828282;
+}
+
+.course_content .course_substance .course_cross {
+	width: 554px;
+	height: 200px;
+	float: left;
+	background: url(../素材/no.2/1.png);
+}
+
+.course_content .course_substance .course_detailed {
+	width: 542px;
+	height: 200px;
+	float: right;
+}
+
+.course_content .course_substance .course_detailed p {
+	color: #fff;
+	font-size: 28px;
+	font-family: "黑体";
+	font-weight: bold;
+	line-height: 28px;
+}
+
+.course_content .course_substance .course_detailed ul {
+	margin-top: 4px;
+}
+
+.course_content .course_substance .course_detailed li {
+	line-height: 35px;
+	font-size: 20px;
+	color: #fff;
+}
+
+.course_content .course_btn {
+	width: 200px;
+	height: 32px;
+	background: url(../素材/no.2/点击了解.png);
+	margin: 0 auto;
+	margin-top: 34px;
+}
+
+/* NO.3 */
+
+.study_mode {
+	height: 964px;
+	padding-top: 60px;
+}
+
+.study_mode .study_title {
+	height: 156px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+.study_mode .study_line {
+	width: 364px;
+	height: 2px;
+	background-color: #453b37;
+	margin: 0 auto;
+}
+
+.study_mode .noOne {
+	height: 52px;
+	width: 364px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.study_mode .noOne span {
+	color: #000;
+	font-size: 32px;
+	line-height: 52px;
+}
+
+.study_mode .study_title .study_PC {
+	width: 364px;
+	height: 24px;
+	background: url(../素材/no.3/MOBILEPHONE.png);
+	margin: auto;
+	margin-top: 24px;
+}
+
+.study_mode .study_title p {
+	color: #666;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	margin-top: 34px;
+}
+
+.study_mode .study_picture {
+	width: 1200px;
+	height: 640px;
+	background: url(../素材/no.3/图层16.png);
+}
+
+.study_mode .study_btn {
+	width: 200px;
+	height: 32px;
+	background: url(../素材/no.2/点击了解.png);
+	margin: 0 auto;
+	margin-top: 16px;
+}
+
+/* NO.4 */
+
+.practice {
+	height: 856px;
+}
+
+.practice .practice_title {
+	height: 134px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+.practice .practice_line {
+	width: 364px;
+	height: 2px;
+	background-color: #453b37;
+	margin: 0 auto;
+}
+
+.practice .noOne {
+	height: 52px;
+	width: 364px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.practice .noOne span {
+	color: #000;
+	font-size: 32px;
+	line-height: 52px;
+}
+
+.practice .practice_title .practice_origin {
+	width: 170px;
+	height: 24px;
+	background: url(../素材/no.4/起点-复习-刷题.png);
+	margin: auto;
+	margin-top: 18px;
+}
+
+.practice .practice_title p {
+	color: #666;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	margin-top: 18px;
+}
+
+.practice .question_bank {
+	height: 580px;
+	padding-left: 140px;
+	padding-right: 40px;
+}
+
+.practice .question_bank .questionBank_picture {
+	width: 374px;
+	height: 520px;
+	background: url(../素材/no.4/矢量智能对象.png);
+	float: left;
+}
+
+.practice .question_bank .questionBank_ceil {
+	width: 480px;
+	height: 520px;
+	float: right;
+	margin-left: 164px;
+}
+
+.practice .question_bank .questionBank_ceil li {
+	width: 100%;
+	height: 148px;
+}
+
+.practice .question_bank .questionBank_ceil li:nth-child(1), .practice .question_bank .questionBank_ceil li:nth-child(2) {
+	margin-bottom: 36px;
+}
+
+.practice .question_bank .questionBank_ceil .questionBank_test {
+	width: 178px;
+	height: 64px;
+	background: url(../素材/no.4/入学测试.png);
+}
+
+.practice .question_bank .questionBank_ceil .questionBank_practice {
+	width: 178px;
+	height: 64px;
+	background: url(../素材/no.4/每日一练.png);
+}
+
+.practice .question_bank .questionBank_ceil .questionBank_problem {
+	width: 178px;
+	height: 64px;
+	background: url(../素材/no.4/智能刷题.png);
+}
+
+.practice .question_bank .questionBank_ceil li span {
+	color: #000;
+	font-family: "微软雅黑";
+	font-size: 22px;
+	line-height: 38px;
+}
+
+.practice .practice_btn {
+	width: 200px;
+	height: 32px;
+	background: url(../素材/no.2/点击了解.png);
+	margin: 0 auto;
+}
+
+/* NO.5 */
+
+.service {
+	height: 562px;
+}
+
+.service .service_title {
+	width: 360px;
+	height: 120px;
+	padding-bottom: 34px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.service .service_line {
+	width: 360px;
+	height: 2px;
+	background-color: #453b37;
+	margin: 0 auto;
+}
+
+.service .noOne {
+	height: 52px;
+	width: 360px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.service .noOne span {
+	color: #000;
+	font-size: 32px;
+	line-height: 52px;
+}
+
+.service .service_title .service_point1 {
+	width: 134px;
+	height: 26px;
+	background: url(../素材/no.5/4P教务服务.png);
+	float: left;
+	margin-top: 40px;
+}
+
+.service .service_title .service_point2 {
+	width: 134px;
+	height: 26px;
+	background: url(../素材/no.5/K5教学关键点.png);
+	float: right;
+	margin-top: 40px;
+}
+
+.service .service_content {
+	height: 388px;
+	width: 100%;
+	background-color: #fdf8f7;
+	padding-top: 20px;
+}
+
+.service .service_content .service_pictrue {
+	width: 877px;
+	height: 364px;
+	background: url('../素材/no.5/为通过初试的同学提供相应的复试调剂专项辅导.png');
+	margin: 0 auto;
+}
+
+.service_k5 {
+	width: 100%;
+	height: 356px;
+	background-color: #ee7400;
+	padding-top: 62px;
+}
+
+.service_k5 .service_k5Pictrue {
+	width: 1107px;
+	height: 243px;
+	background: url("../素材/no.5/督促学员的学习进度推进，指导学员张弛有度地备考。.png");
+	margin: 0 auto;
+}
+
+.service_k5 .service_btn {
+	width: 200px;
+	height: 32px;
+	background: url(../素材/no.2/点击了解.png);
+	margin: 0 auto;
+	margin-top: 53px;
+}
+
+/* 页尾 */
+
+.footer {
+	height: 1048px;
+	width: 1200px;
+	padding-top: 80px;
+	text-align: center;
+	/* background-color: red; */
+}
+
+.footer .contact {
+	width: 1200px;
+	height: 78px;
+	background: url('../素材/17年品牌沉淀，只做最值得你信赖的线上辅导课程.png');
+}
+
+.footer .student_details {
+	width: 1140px;
+	height: 340px;
+	padding: 0 30px;
+	margin-top: 80px;
+	padding-bottom: 80px;
+	/* background-color: blue; */
+}
+
+.footer .student_details .student_nums {
+	width: 560px;
+	height: 339px;
+	background: url("../素材/形状2拷贝15.png");
+	float: left;
+}
+
+.footer .student_details .teaching_material {
+	width: 490px;
+	height: 100%;
+	background: url("../素材/矩形1.png") 490px 0px;
+	float: right;
+}
+
+.footer p {
+	color: #000;
+	font-size: 32px;
+	font-family: "微软雅黑";
+}
+
+.footer .physical_truth {
+	margin-top: 20px;
+	width: 1200px;
+	height: 224px;
+	/* background-color: red; */
+	padding-top: 24px;
+	position:relative;
+	box-shadow: 0px 0px 10px 4px #dbdbdb;
+}
+.footer .physical_truth .physical_truth_content{
+	width: 1124px;
+	height: 204px;
+	margin: 0 auto;
+}
+#swiper-button-next{
+	width: 21px;
+	height: 38px;
+	background: url('../素材/形状1拷贝3.png');
+	outline:none;
+}
+#swiper-button-prev{
+	width: 20px;
+	height: 38px;
+	background: url('../素材/形状1拷贝2.png');
+	outline:none;
+}
+html, body {
+	position: relative;
+	height: 100%;
+}
+
+body {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.swiper-slide img{
+	width: 100%;
+	height: 100%;
+}
